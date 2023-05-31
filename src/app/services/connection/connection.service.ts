@@ -1,8 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, forkJoin, switchMap } from 'rxjs';
-import { Ability, Pokemon } from '../model/pokemon';
-import { BaseData } from '../model/base-data';
+import { Ability, Pokemon } from 'src/app/model/ability';
+import { BaseData } from 'src/app/model/base-data';
+
 
 @Injectable({
   providedIn: 'root'
